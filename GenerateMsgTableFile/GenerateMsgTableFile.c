@@ -3,8 +3,6 @@
 
 #include <stdio.h>
 #include <windows.h>
-#include <strsafe.h>
-#include <winerror.h>
 
 #define CHECKRETURN(x) ((x) == 0)
 

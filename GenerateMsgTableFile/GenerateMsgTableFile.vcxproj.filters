@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="CreateMsgTableFile.c">
+    <ClCompile Include="GenerateMsgTableFile.c">
       <Filter>Source files</Filter>
     </ClCompile>
   </ItemGroup>
