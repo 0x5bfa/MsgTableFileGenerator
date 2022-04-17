@@ -45,7 +45,7 @@ BOOL CALLBACK ExportMessageTable(HINSTANCE hModule, LPCWSTR lpszType, LPCWSTR lp
     // Write bom of UTF-16
     WriteFile((HANDLE)lParam, "\xFF\xFE", 2UL, NULL, NULL);
 
-    WCHAR szLicenseNotice[] = L";// Copyright (c) 2021 WindowsCommands\r\n;// Licensed under the MIT License.\r\n\r\n";
+    WCHAR szLicenseNotice[] = L";// Copyright (c) 2022 onein528\r\n;// Licensed under the MIT License.\r\n\r\n";
     //WCHAR szFileHeader[] = L"MessageIdTypedef=DWORD\r\n\r\nSeverityNames=(Success=0x0:STATUS_SEVERITY_SUCCESS\r\nInformational=0x1:STATUS_SEVERITY_INFORMATIONAL\r\nWarning=0x2:STATUS_SEVERITY_WARNING\r\nError=0x3:STATUS_SEVERITY_ERROR\r\n)\r\n\r\nFacilityNames=(System=0x0:FACILITY_SYSTEM\r\nRuntime=0x2:FACILITY_RUNTIME\r\nStubs=0x3:FACILITY_STUBS\r\nIo=0x4:FACILITY_IO_ERROR_CODE\r\n)\r\n\r\n";
 
     // Write mc file header
